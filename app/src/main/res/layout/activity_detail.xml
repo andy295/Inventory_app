@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for the editor -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:id="@+id/detail_tool_label_name"
+            android:text="@string/hint_tool_name"
+            style="@style/LabelStyle" />
+
+        <!-- Field-->
+        <TextView
+            android:id="@+id/detail_tool_filed_name"
+            android:text="@string/hint_tool_name"
+            style="@style/TextFieldStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp">
+
+        <!-- Label -->
+        <TextView
+            android:id="@+id/detail_tool_label_price"
+            android:text="@string/hint_tool_price"
+            style="@style/LabelStyle" />
+
+        <!-- Field-->
+        <TextView
+            android:id="@+id/detail_tool_filed_price"
+            android:text="@string/hint_tool_price"
+            style="@style/TextFieldStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp">
+
+        <!-- Label -->
+        <TextView
+            android:id="@+id/detail_tool_label_quantity"
+            android:text="@string/hint_tool_quantity"
+            style="@style/LabelStyle" />
+
+        <!-- Field-->
+        <TextView
+            android:id="@+id/detail_tool_filed_quantity"
+            android:text="@string/hint_tool_quantity"
+            style="@style/TextFieldStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp">
+
+        <!-- Label -->
+        <TextView
+            android:id="@+id/detail_tool_label_supplier_name"
+            android:text="@string/hint_tool_supplier_name"
+            style="@style/LabelStyle" />
+
+        <!-- Field-->
+        <TextView
+            android:id="@+id/detail_tool_filed_supplier_name"
+            android:text="@string/hint_tool_supplier_name"
+            style="@style/TextFieldStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp">
+
+        <!-- Label -->
+        <TextView
+            android:id="@+id/detail_tool_label_supplier_number"
+            android:text="@string/hint_tool_supplier_number"
+            style="@style/LabelStyle" />
+
+        <!-- Field-->
+        <TextView
+            android:id="@+id/detail_tool_filed_supplier_number"
+            android:text="@string/hint_tool_supplier_number"
+            style="@style/TextFieldStyle" />
+    </LinearLayout>
+</LinearLayout>
